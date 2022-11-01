@@ -1,0 +1,196 @@
+html{
+    scroll-behavior: smooth;
+}
+/***** NAVBAR *****/
+
+.navbar {
+    position: fixed;
+    z-index: 1;
+    background-color: #d4bfb5;
+    border-radius: 0;
+    width: 100%;
+    top:0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: px;
+    font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #8f050c;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    background-color: #8f050c;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #ebd122;
+    color: #242424;
+    fill: #242424;
+    border-color: #fff;
+
+}
+.offset-nav{
+    margin-top:48px;
+}
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-image: url("../assets/surreal_madison.png");
+    text-align: center;
+    color: #fff;
+    padding: 3%;
+    border-radius: 0px;
+}
+
+.jumbotron h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.img-responsive{
+    width:100%;
+}
+
+
+/*** MASTHEAD ***/
+
+header.masthead {
+    text-align: center;
+    color: white;
+    /*background-image: url("../assets/surreal_madison.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;*/
+}
+
+.intro-image {
+    width: 100%
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30pt;
+    color: #8f050c;
+    text-shadow: 2px 2px #eeead2
+    ;
+  }
+
+  .centered-subtitle {
+    font-size: 18pt;
+  }
+/*** CARD ***/
+
+.card {
+    background-color: #fff;
+    border-color: #cccccc;
+    border-width: 1px;
+    width: 100%;
+}
+
+.card:hover {
+    border-color: firebrick;
+    border-width: 4px;
+    filter: blur(3px);
+    transition: .25s ease;
+}
+
+.card-body {
+    background-color: rgba(255, 255, 255, 0.315);
+    /*border-width: 4px;
+    border-style: groove;
+    border-color:firebrick;*/
+}
+
+.card-subtitle {
+    font-size: 10pt;
+    
+}
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-height: 200px;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #863ee3;
+}
+
+a:hover {
+    color: #ebd122;
+}
+
+.container{
+    padding:25px 0;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(238, 223, 223);
+    color: #242424;
+}
+
+.portfolio-description {
+    font-size: 12pt;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.portfolio-title {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+    .centered {font-size: 20pt;
+    }
+    .centered-subtitle {font-size: 12pt;
+    }
+}
