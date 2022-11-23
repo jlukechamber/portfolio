@@ -93,7 +93,8 @@ header.masthead {
 }
 
 .intro-image {
-    width: 100%
+    width: 100%;
+    opacity: 0.74;
 }
 
 .centered {
@@ -103,14 +104,14 @@ header.masthead {
     transform: translate(-50%, -50%);
     text-align: center;
     font-weight: bold;
-    font-size: 30pt;
+    font-size: 32pt;
     color: #8f050c;
     text-shadow: 2px 2px #eeead2
     ;
   }
 
   .centered-subtitle {
-    font-size: 18pt;
+    font-size: 22pt;
   }
 /*** CARD ***/
 
