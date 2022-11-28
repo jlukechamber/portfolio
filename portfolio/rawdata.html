@@ -46,6 +46,7 @@
         </div> <!-- end .container-fluid -->
     </nav> <!-- end navigation bar -->
 
+
     <div class="content">
         <!--title block, background image is title image-->
         <div class="row" style="background-image:url(../assets/cburg_zoom3.png)">
@@ -60,62 +61,82 @@
         <!--image block-->
         <div class="row">
             <div class="center">
+
+                <p><br>This Mapbox style is called <b>Raw Data Dreams</b>. <br> It was created as an assignment for
+                    Geography 572: Graphic Design in Cartography at UW-Madison. We
+                    were asked to recreate the aesthetic elements of a piece of art as a slippy webmap. <br></p>
                 <img class="fit" src="../assets/rawdata/albumcovers.png">
-                <p><br>This Mapbox style is called <b>Raw Data Dreams</b>. <br> It is inspired by the artwork created
+                <p>
+                    <br>The inspiration for this project came from the designs created
                     for the
                     album
                     <a href="https://everythingeverything.bandcamp.com/album/raw-data-feel" target="_blank">Raw Data
-                        Feel by Everything Everything</a>.
+                        Feel by Everything Everything</a>. All of the images surrounding the release, the song titles, and some of the lyrics were procedurally generated.
                 </p>
             </div>
         </div>
 
-        <!--background images with text scrolling over them-->
-        <div class="scroll-container">
-            <!--background images-->
-            <div class="background-item">
-                <!--data-slide property used to specify when the background should first-->
-                <img src="../assets/rawdata/badfriday.png" data-slide="0" class="fill vert-center">
-                <img src="../assets/rawdata/teletype.png" data-slide="1" class="fill vert-center">
-                <img src="../assets/rawdata/lovelikethis.png" data-slide="2" class="fill vert-center">
-                <img src="../assets/rawdata/pizzaboy.png" data-slide="3" class="fill vert-center">
-                <img src="../assets/rawdata/rawdatafeel.png" data-slide="4" class="fill vert-center">
+        <div class="row">
+            <div class="right">
+                <p class="vert-center" style="text-align: right;">Since I learned about AI generated images, I have been
+                    fascinated with the idea of making maps that capture the same feeling and aesthetic.
+                </p>
             </div>
-            <!--foreground text blocks-->
-            <div class="foreground-item no-event">
-                <div class="row">
-                    <div class="right background-transparent rounded">
-                        <p class="no-margin">I was immediately drawn to the surreal dream-like quality of these images.
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="right background-transparent rounded">
-                        <p class="no-margin">The band's latest project was heavily inspired by AI. These images and some
-                            lyrics on the album were procedurally generated.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="right background-transparent rounded">
-                        <p class="no-margin">I loved all the color palettes from these 5 pieces, so I thought "why stick
-                            with just one!"</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="right background-transparent rounded">
-                        <p class="no-margin">To try to capture that dream world quality I decided to have the color
-                            palette blend from one to another as you move to higher zoom levels.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="right background-transparent rounded">
-                        <p class="no-margin">I think the effect turned out very fun. I like to call the zoom levels
-                            where one palette is transitioning into another "palettetones" (like ecotones...get it?).
-                        </p>
-                    </div>
-                </div>
+            <div class="left">
+                <img class="fit" src="../assets/rawdata/badfriday.png">
             </div>
         </div>
+
+        <div class="row">
+            <div class="right">
+                <img class="fit" src="../assets/rawdata/teletype.png">
+            </div>
+            <div class="left">
+                <p class="vert-center">I think AI generated maps are an interesting jumping off point from which to
+                    explore new aesthetic spaces in cartography. For example, the image on the homepage of this website
+                    was
+                    created using <a href="https://beta.dreamstudio.ai/dream" target="_blank">Dream Studio</a>.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="right">
+                <p class="vert-center" style="text-align: right;">I'm drawn to the surreal dream-like quality of these
+                    images. The bold technical feeling layout that houses the images reminds you of the technology behind them.
+                    A binary box building impossible worlds.
+                </p>
+            </div>
+            <div class="left">
+                <img class="fit" src="../assets/rawdata/lovelikethis.png">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="right">
+                <img class="fit" src="../assets/rawdata/pizzaboy.png">
+            </div>
+            <div class="left">
+                <p class="vert-center">I love all five color palettes, so to try to capture that dream-like feeling I
+                    decided to blend the color palettes
+                    into eachother as the user moves between zoom levels.
+                    The map contains five distinct aesthetics that all share consistent elements.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="right">
+                <p class="vert-center" style="text-align: right;">AI in art is a somewhat controversial topic, but one
+                    that I think has powerful implications and potential for aesthetics in cartography.
+                    I hope to pull this thread more and see what unravels from it.
+                </p>
+            </div>
+            <div class="left">
+                <img class="fit" src="../assets/rawdata/rawdatafeel.png">
+            </div>
+        </div>
+
 
         <!--bootstrap carousel, centered-->
         <div class="row">
@@ -345,8 +366,9 @@
         <div class="row sm-margin">
             <div class="center-wide">
                 <p>Explore the map for the full effect.</p>
-                <iframe width='100%' height='500px' src="https://api.mapbox.com/styles/v1/jlukechamber/cl9yb2omh000p14k6ki2eorwc.html?title=false&access_token=pk.eyJ1Ijoiamx1a2VjaGFtYmVyIiwiYSI6ImNqcm1nb29rYjBndTUzeW9vYjk5N2N3eGMifQ.M0aZt6pqaXZhRr265climA&zoomwheel=false#2.63/35.17/-82.34/0/4" 
-                title="Raw Data Feel" style="border:none;"></iframe>
+                <iframe width='100%' height='500px'
+                    src="https://api.mapbox.com/styles/v1/jlukechamber/cl9yb2omh000p14k6ki2eorwc.html?title=false&access_token=pk.eyJ1Ijoiamx1a2VjaGFtYmVyIiwiYSI6ImNqcm1nb29rYjBndTUzeW9vYjk5N2N3eGMifQ.M0aZt6pqaXZhRr265climA&zoomwheel=false#2.63/35.17/-82.34/0/4"
+                    title="Raw Data Feel" style="border:none;"></iframe>
             </div>
         </div>
         <!--text block-->
@@ -362,7 +384,7 @@
         </div>
 
     </div>
-
+    </div>
     <script type="text/javascript" src="../lib/scrollmap.js"></script>
     <script type="text/javascript" src="../lib/bootstrap.min.js"></script>
 
