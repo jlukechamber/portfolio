@@ -49,7 +49,7 @@
 
     <div class="content">
         <!--title block, background image is title image-->
-        <div class="row" style="background-image:url(../assets/cburg_zoom3.png)">
+        <div class="row" style="background-image:url(../assets/cburg_zoom3.PNG)">
             <div class="left title">
                 <!--title text-->
                 <h1><b>Raw Data Dreams</b></h1>
@@ -71,8 +71,11 @@
                     for the
                     album
                     <a href="https://everythingeverything.bandcamp.com/album/raw-data-feel" target="_blank">Raw Data
-                        Feel by Everything Everything</a>. All of the images surrounding the release, the song titles, and some of the lyrics were procedurally generated.
+                        Feel by Everything Everything</a>. All of the images surrounding the release, the song titles,
+                    and some of the lyrics were procedurally generated.
                 </p>
+                <br>
+                <p class="jump"><a href="#embed-anchor-bottom">Jump to the map at the bottom.</a></p>
             </div>
         </div>
 
@@ -87,61 +90,10 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="right">
-                <img class="fit" src="../assets/rawdata/teletype.png">
-            </div>
-            <div class="left">
-                <p class="vert-center">I think AI generated maps are an interesting jumping off point from which to
-                    explore new aesthetic spaces in cartography. For example, the image on the homepage of this website
-                    was
-                    created using <a href="https://beta.dreamstudio.ai/dream" target="_blank">Dream Studio</a>.
-                </p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="right">
-                <p class="vert-center" style="text-align: right;">I'm drawn to the surreal dream-like quality of these
-                    images. The bold technical feeling layout that houses the images reminds you of the technology behind them.
-                    A binary box building impossible worlds.
-                </p>
-            </div>
-            <div class="left">
-                <img class="fit" src="../assets/rawdata/lovelikethis.png">
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="right">
-                <img class="fit" src="../assets/rawdata/pizzaboy.png">
-            </div>
-            <div class="left">
-                <p class="vert-center">I love all five color palettes, so to try to capture that dream-like feeling I
-                    decided to blend the color palettes
-                    into eachother as the user moves between zoom levels.
-                    The map contains five distinct aesthetics that all share consistent elements.
-                </p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="right">
-                <p class="vert-center" style="text-align: right;">AI in art is a somewhat controversial topic, but one
-                    that I think has powerful implications and potential for aesthetics in cartography.
-                    I hope to pull this thread more and see what unravels from it.
-                </p>
-            </div>
-            <div class="left">
-                <img class="fit" src="../assets/rawdata/rawdatafeel.png">
-            </div>
-        </div>
-
-
         <!--bootstrap carousel, centered-->
         <div class="row">
             <div class="center-wide">
-                <p>Christiansburg, VA</p>
+
                 <!--slideshow of images, also known as a carousel-->
                 <!--remove "carousel-dark" if you want a lighter version of the carousel-->
                 <div id="carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -191,28 +143,42 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
+                <p>Christiansburg, VA</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="right">
+                <img class="fit" src="../assets/rawdata/teletype.png">
+            </div>
+            <div class="left">
+                <p class="vert-center">I think AI generated maps are an interesting jumping off point from which to
+                    explore new aesthetic spaces in cartography. For example, the image on the homepage of this website
+                    was
+                    created using <a href="https://beta.dreamstudio.ai/dream" target="_blank">Dream Studio</a>.
+                </p>
             </div>
         </div>
 
         <!--bootstrap carousel, centered-->
         <div class="row">
             <div class="center-wide">
-                <p>Madison, WI</p>
+
                 <!--slideshow of images, also known as a carousel-->
                 <!--remove "carousel-dark" if you want a lighter version of the carousel-->
-                <div id="carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div id="carousel2" class="carousel carousel-dark slide" data-bs-ride="carousel">
                     <!--indicator buttons at the bottom of the carousel that show the total number of slides-->
                     <div class="carousel-indicators">
                         <!--there should be as many of these buttons as there are slides in your carousel-->
-                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
+                        <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active"
                             aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"
+                        <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1"
                             aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"
+                        <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"
+                        <button type="button" data-bs-target="#carousel2" data-bs-slide-to="3"
                             aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"
+                        <button type="button" data-bs-target="#carousel2" data-bs-slide-to="4"
                             aria-label="Slide 5"></button>
 
                     </div>
@@ -236,39 +202,53 @@
 
                     </div>
                     <!--previous/next buttons that allow users to click from one slide to the next-->
-                    <button id="prev-button" class="carousel-control-prev" type="button" data-bs-target="#carousel"
+                    <button id="prev-button" class="carousel-control-prev" type="button" data-bs-target="#carousel2"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button id="next-button" class="carousel-control-next" type="button" data-bs-target="#carousel"
+                    <button id="next-button" class="carousel-control-next" type="button" data-bs-target="#carousel2"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
+                <p>Madison, WI</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="right">
+                <p class="vert-center" style="text-align: right;">I'm drawn to the surreal dream-like quality of these
+                    images. The bold technical feeling layout that houses the images reminds you of the technology
+                    behind them.
+                    A binary box building impossible worlds.
+                </p>
+            </div>
+            <div class="left">
+                <img class="fit" src="../assets/rawdata/lovelikethis.png">
             </div>
         </div>
 
         <!--bootstrap carousel, centered-->
         <div class="row">
             <div class="center-wide">
-                <p>Battery Park, NYC</p>
+
                 <!--slideshow of images, also known as a carousel-->
                 <!--remove "carousel-dark" if you want a lighter version of the carousel-->
-                <div id="carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div id="carousel3" class="carousel carousel-dark slide" data-bs-ride="carousel3">
                     <!--indicator buttons at the bottom of the carousel that show the total number of slides-->
                     <div class="carousel-indicators">
                         <!--there should be as many of these buttons as there are slides in your carousel-->
-                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
+                        <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active"
                             aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"
+                        <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1"
                             aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"
+                        <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"
+                        <button type="button" data-bs-target="#carousel3" data-bs-slide-to="3"
                             aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"
+                        <button type="button" data-bs-target="#carousel3" data-bs-slide-to="4"
                             aria-label="Slide 5"></button>
 
                     </div>
@@ -292,39 +272,52 @@
 
                     </div>
                     <!--previous/next buttons that allow users to click from one slide to the next-->
-                    <button id="prev-button" class="carousel-control-prev" type="button" data-bs-target="#carousel"
+                    <button id="prev-button" class="carousel-control-prev" type="button" data-bs-target="#carousel3"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button id="next-button" class="carousel-control-next" type="button" data-bs-target="#carousel"
+                    <button id="next-button" class="carousel-control-next" type="button" data-bs-target="#carousel3"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
+                <p>Battery Park, NYC</p>
             </div>
         </div>
 
-        <!--bootstrap carousel, centered-->
+        <div class="row">
+            <div class="right">
+                <img class="fit" src="../assets/rawdata/pizzaboy.png">
+            </div>
+            <div class="left">
+                <p class="vert-center">I love all five color palettes, so to try to capture that dream-like feeling I
+                    decided to blend the color palettes
+                    into eachother as the user moves between zoom levels.
+                    The map contains five distinct aesthetics that all share consistent elements.
+                </p>
+            </div>
+        </div>
+
         <div class="row">
             <div class="center-wide">
-                <p>Beijing, China</p>
+                
                 <!--slideshow of images, also known as a carousel-->
                 <!--remove "carousel-dark" if you want a lighter version of the carousel-->
-                <div id="carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div id="carousel4" class="carousel carousel-dark slide" data-bs-ride="carousel4">
                     <!--indicator buttons at the bottom of the carousel that show the total number of slides-->
                     <div class="carousel-indicators">
                         <!--there should be as many of these buttons as there are slides in your carousel-->
-                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
+                        <button type="button" data-bs-target="#carousel4" data-bs-slide-to="0" class="active"
                             aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"
+                        <button type="button" data-bs-target="#carousel4" data-bs-slide-to="1"
                             aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"
+                        <button type="button" data-bs-target="#carousel4" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"
+                        <button type="button" data-bs-target="#carousel4" data-bs-slide-to="3"
                             aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"
+                        <button type="button" data-bs-target="#carousel4" data-bs-slide-to="4"
                             aria-label="Slide 5"></button>
 
                     </div>
@@ -348,24 +341,42 @@
 
                     </div>
                     <!--previous/next buttons that allow users to click from one slide to the next-->
-                    <button id="prev-button" class="carousel-control-prev" type="button" data-bs-target="#carousel"
+                    <button id="prev-button" class="carousel-control-prev" type="button" data-bs-target="#carousel4"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button id="next-button" class="carousel-control-next" type="button" data-bs-target="#carousel"
+                    <button id="next-button" class="carousel-control-next" type="button" data-bs-target="#carousel4"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
+                <p>Beijing, China</p>
             </div>
         </div>
 
+        <div class="row">
+            <div class="right">
+                <p class="vert-center" style="text-align: right;">AI in art is a somewhat controversial topic, but one
+                    that I think has powerful implications and potential for aesthetics in cartography.
+                    This is a first pass at playing with the aesthetics of AI in maps.
+                    I hope to pull this thread more and see what unravels from it.
+                </p>
+            </div>
+            <div class="left">
+                <img class="fit" src="../assets/rawdata/rawdatafeel.png">
+            </div>
+        </div>
+
+
         <!--mapbox iframe-->
+        
         <div class="row sm-margin">
+            <a id="embed-anchor-bottom"></a>
             <div class="center-wide">
-                <p>Explore the map for the full effect.</p>
+                <p>Explore the map and play with the zoom for the full effect.</p>
+                
                 <iframe width='100%' height='500px'
                     src="https://api.mapbox.com/styles/v1/jlukechamber/cl9yb2omh000p14k6ki2eorwc.html?title=false&access_token=pk.eyJ1Ijoiamx1a2VjaGFtYmVyIiwiYSI6ImNqcm1nb29rYjBndTUzeW9vYjk5N2N3eGMifQ.M0aZt6pqaXZhRr265climA&zoomwheel=false#2.63/35.17/-82.34/0/4"
                     title="Raw Data Feel" style="border:none;"></iframe>
