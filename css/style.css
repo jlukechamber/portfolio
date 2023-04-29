@@ -128,7 +128,7 @@ header.masthead {
 }
 
 .card:hover {
-    border-color: firebrick;
+    border-color: #8f050c;
     border-width: 4px;
     filter: blur(3px);
     transition: .25s ease;
