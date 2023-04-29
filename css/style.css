@@ -1,3 +1,5 @@
+
+
 html{
     scroll-behavior: smooth;
 }
@@ -6,17 +8,19 @@ html{
 .navbar {
     position: fixed;
     z-index: 1;
-    background-color: #d4bfb5;
+    background-color: #fce06e;
     border-radius: 0;
     width: 100%;
     top:0;
+    font-family: 'Saintjean-Regular';
 }
 
 /* Navbar title */
 .navbar-default .navbar-brand {
     color: white;
-    font-size: px;
+    font-size: 20px;
     font-weight: bold;
+    font-family: 'misterPixel';
 }
 
 /* Navbar hover effects */
@@ -31,7 +35,7 @@ html{
 /* Navbar links */
 .navbar-default .navbar-nav > li > a {
     color: #fff;
-    font-size: 16px;
+    font-size: 24px;
     padding: 10px;
 }
 
@@ -59,6 +63,7 @@ html{
 .offset-nav{
     margin-top:48px;
 }
+
 /*** JUMBOTRON ***/
 
 .jumbotron {
@@ -157,6 +162,7 @@ hr {
 }
 
 p {
+    font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
 
@@ -173,9 +179,9 @@ a:hover {
 }
 
 body {
-    font-family:'Courier New', Courier, monospace;
-    background-color: rgb(238, 223, 223);
-    color: #242424;
+    font-family:'misterPixel';
+    background-color: #fce06e;
+    color: #0f4955;
 }
 
 .portfolio-description {
@@ -199,4 +205,14 @@ body {
 .background-item{
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+h2{
+    font-family:'Saintjean-Regular';
+    font-size: 50px;
+    color: #8f050c;
+}
+
+h4{
+    color: #8f050c;
 }
