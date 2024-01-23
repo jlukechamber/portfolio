@@ -216,3 +216,8 @@ h2{
 h4{
     color: #8f050c;
 }
+
+.carousel {
+    width:640px;
+    height: 650px;
+  }
